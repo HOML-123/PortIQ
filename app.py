@@ -1420,8 +1420,8 @@ elif page == "AI Operations Analyst":
     else:
         st.success("A local API key is configured. Account access is checked when you send a request.")
 
-    if "ai_question" not in st.session_state:
-        st.session_state["ai_question"] = ""
+    if "pending_ai_question" in st.session_state:
+        st.session_state["ai_question"] = st.session_state.pop("pending_ai_question")
 
     question = st.text_area(
         "Ask PortIQ",
@@ -1496,7 +1496,7 @@ elif page == "AI Operations Analyst":
 
     for item in suggestions:
         if st.button(item, key="suggest_" + item):
-            st.session_state["ai_question"] = item
+            st.session_state["pending_ai_question"] = item
             st.rerun()
 
 elif page == "Recovery Planner":
