@@ -114,3 +114,10 @@ pip install -r requirements.txt
 
 streamlit run app.py
 
+### BharatCode AI Integration
+
+PortIQ includes an integration with the BharatCode model API for AI-assisted logistics analysis and recovery recommendations.
+
+The application handles API access errors gracefully and provides a local fallback so that its core decision-support functionality remains usable when live inference is unavailable.
+
+Live BharatCode inference requires an eligible BharatCode account and a valid API key configured through environment variables. API credentials are not included in this repository.
