@@ -116,8 +116,14 @@ streamlit run app.py
 
 ### BharatCode AI Integration
 
-PortIQ includes an integration with the BharatCode model API for AI-assisted logistics analysis and recovery recommendations.
+PortIQ integrates the BharatCode Qwen 3.8 27B model through its OpenAI-compatible API.
 
-The application handles API access errors gracefully and provides a local fallback so that its core decision-support functionality remains usable when live inference is unavailable.
+The integration supports:
+- AI-assisted logistics and shipment analysis.
+- Operational disruption interpretation.
+- Recovery strategy recommendations.
+- Context-aware explanations of logistics risks.
 
-Live BharatCode inference requires an eligible BharatCode account and a valid API key configured through environment variables. API credentials are not included in this repository.
+The application includes API error handling and a local fallback to preserve core decision-support functionality when live inference is unavailable.
+
+API credentials are configured through environment variables and are never included in the repository.
