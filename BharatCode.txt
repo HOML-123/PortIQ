@@ -1,0 +1,33 @@
+PROJECT NAME: PortIQ
+
+CATEGORY: Work & Automation
+
+PROJECT TYPE: AI-Powered Logistics Intelligence and Decision Support Platform
+
+DESCRIPTION:
+
+PortIQ is a logistics operations decision-support platform that combines shipment data intelligence, rule-based disruption risk analysis, what-if simulation, machine learning anomaly detection and BharatCode-powered AI explanations.
+
+The platform helps logistics teams inspect shipment records, identify high-priority exceptions, understand potential operational consequences and compare possible recovery actions.
+
+BHARATCODE AI INTEGRATION:
+
+PortIQ integrates the BharatCode Qwen model through the BharatCode OpenAI-compatible API. The AI Operations Analyst receives structured operational evidence from the platform and generates explanations and decision-support analysis.
+
+TECHNOLOGY:
+
+Python, Streamlit, Pandas, NumPy, Plotly, Scikit-learn, SQLite and BharatCode Qwen.
+
+CORE FEATURES:
+
+1. Shipment Intelligence
+2. Disruption and Risk Intelligence
+3. AI Operations Analyst
+4. What-if Disruption Simulator
+5. Recovery and Action Planner
+6. Decision Audit and Reporting
+7. Machine Learning Anomaly Detection
+
+DATA TRANSPARENCY:
+
+The built-in demonstration dataset and disruption scenarios are simulated. User-uploaded CSV and Excel files are supported. The prototype does not claim live carrier, port or vessel-tracking integrations.
